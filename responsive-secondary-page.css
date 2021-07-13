@@ -1,0 +1,64 @@
+@media (max-width: 720px){
+
+    .artist-info-outer-div{
+        flex-direction: column;
+    }
+    .artist-info{
+        margin-left: -4%;
+    }
+    .artist-image{
+        width: 100%;
+        height: 150px;
+    }
+    .artist-info-details{
+        width: 90%;
+    }
+    #artist-name{
+        font-size: 1.1rem;
+    }
+    .artist-country span{
+        font-size: 0.8rem;
+    font-weight: bold;
+    }
+    .play-btn-div{
+        margin-top: 2%;
+
+    }
+    .track-album{
+        width: 100%;
+    }
+
+    .track-plus-icon{
+        display: none;
+    }
+    .track-poster{
+        width: 40%;
+    }
+    .track-no span{
+        left: 10%;
+    }
+    .track-duration{
+        left: 28%;
+    }
+    .track-fav-icon{
+        left: -8%;
+    }
+    .track-poster img{
+        object-fit: contain;
+        margin: 0%;
+        margin-top: 12%;
+        /* margin: 0%; */
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .track-name{
+    left: 12%;
+    font-size: 0.8rem;
+    }
+
+    .songs-tracks-inner-div{
+        margin-left: -5%;
+        margin-right: 2%;
+    }
+
+}
